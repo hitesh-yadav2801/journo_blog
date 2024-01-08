@@ -3,6 +3,7 @@ class Assets {
   Assets._();
 
   static const String imagesAuthBg = 'assets/images/auth_bg.png';
+  static const String imagesImagePlaceholder = 'assets/images/image_placeholder.webp';
   static const String imagesJournoLogo = 'assets/images/journo_logo.png';
   static const String imagesNetflix = 'assets/images/netflix.webp';
   static const String imagesOnboard1 = 'assets/images/onboard1.png';

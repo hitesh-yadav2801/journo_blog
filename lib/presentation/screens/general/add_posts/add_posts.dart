@@ -10,10 +10,26 @@ class AddPosts extends StatefulWidget {
 class _AddPostsState extends State<AddPosts> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(
-        child: Text("This is add post screen"),
+    return Scaffold(
+      appBar: AppBar(
+        title: "Add Posts".text.make(),
+        automaticallyImplyLeading: false,
+        backgroundColor: MyColors.primaryColor,
+        foregroundColor: MyColors.white,
+        actions: [
+          IconButton(
+            onPressed: () {},
+            icon: const Icon(
+              FeatherIcons.check,
+            )
+          )
+        ],
       ),
+      body: Column(
+        children: [
+          
+        ],
+      )
     );
   }
 }
