@@ -41,9 +41,12 @@ class _OnBoardState extends State<OnBoard> {
 
                   PrimaryButton(
                     title: "Get Started",
-                    onPressed: () => AutoRouter.of(context).push(
-                        const AuthRoute(),
-                    )
+                    // onPressed: () => AutoRouter.of(context).push(
+                    //     const AuthRoute(),
+                    // ),
+                      onPressed: () {
+                        ApiClient().getTags();
+                      }
                   ),
 
                   61.h.heightBox,
